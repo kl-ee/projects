@@ -9,5 +9,6 @@ project(pi_projects)
 
 add_subdirectory(01.hangman)
 add_subdirectory(02.hs_game)
+add_subdirectory(03.snakii_game)
 
 
