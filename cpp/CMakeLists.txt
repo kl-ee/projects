@@ -7,8 +7,5 @@ set(CMAKE_INSTALL_PREFIX "$ENV{HOME}" CACHE PATH "PI_INSTALL_PREIFX")
 
 project(pi_projects)
 
-add_subdirectory(01.hangman)
-add_subdirectory(02.hs_game)
-add_subdirectory(03.snakii_game)
-
-
+add_subdirectory(libraries)
+add_subdirectory(programs)
